@@ -1,0 +1,13 @@
+soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:wcf="http://schemas.datacontract.org/2004/07/WCFGenio">
+<soapenv:Header/>
+<soapenv:Body>
+<tem:DoLogin>
+<tem:pedido>
+<wcf:password>Password</wcf:password>
+<wcf:username>quidgest</wcf:username>
+<!-- Ano da base de dados: -->
+<wcf:year>2026</wcf:year>
+</tem:pedido>
+</tem:DoLogin>
+</soapenv:Body>
+</soapenv:Envelope>
